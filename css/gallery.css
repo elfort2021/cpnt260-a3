@@ -8,16 +8,12 @@ body {
 
 }
 
-.wrapper { 
-  display: grid; 
-  grid-template-columns: repeat(3, 200px);
-  grid-auto-rows: 100px 200px;
-  grid-gap: 20px;  
-  /* grid-auto-flow: dense;  */
-  /* justify-content: center;  */
-  /* grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); */
-}
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-gap: 1rem;
 
+}
 .gallery-item {
   max-width: 200px; 
   height: 100%; 
