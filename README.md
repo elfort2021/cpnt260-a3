@@ -16,6 +16,8 @@ Friday morning,
 Well, the images are fitting thanks to **Swapna the life saver** as I was trying to set an explicit amount of columns which lead to it being unrepsonsive. Got my social links in fixed and set, i'd recommend checking out the youtube link- if you have the time. It's worth it! 
 Footer is in the middle of the page. Why is the footer in the middle of the page. God. 
 Also my photo credit links are purple. WHYYYyyyyYYYYY? Don't know. Maybe it's my local server but it works for youtube so this entire sentence is irrelevant. AnYwaY.
+Update: fixed the footer. Why are footers such a nightmare. 
+Yay! 
 
 
 ### Shoutouts! 
