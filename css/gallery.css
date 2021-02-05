@@ -1,23 +1,70 @@
 body { 
-  margin: 20px; 
-  padding: 0px; 
+  /* margin: 20px 20px;  */
+  /* padding: 0px;  */
+  /* padding-bottom: 50px;  */
 
   font-family: 'Barlow Condensed', sans-serif;
   text-align: center;
+  margin: 0px;
 
 
 }
+
+.socials-bar {
+  position: fixed;
+  top: 25vh;
+  left: 0;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 20px; 
+  /* z-index: 10; don't need doesn't overlay grid items */
+  margin: 0;
+  -webkit-transition: right 0.25s ease-in-out;
+  transition: right 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.socials-bar li { 
+  padding: 1px; 
+
+}
+
+.socials-bar li a { 
+  background: rgb(145, 140, 140, 50%); 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px; 
+  padding-right: 5px;
+  text-decoration: none;
+  
+}
+
+.socials-bar li a:hover  { 
+  width: 50px; 
+  padding-right: 0px; 
+  text-decoration: none;
+  background: gray; 
+
+}
+
 
 .gallery-container{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
   grid-gap: 1rem;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 10px; 
 
 }
 .gallery-item {
   max-width: 200px; 
   height: 100%; 
-  /* position: relative;  */
+  /* position: relative;  nope don't need this */
   
   }
   
@@ -34,29 +81,44 @@ height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
   cursor: pointer; 
-  /* transition: 0.5s ease-in-out;  */
+  
 
 }
-
+/* This stopped working- will delve into why. I think I over complicated it during the period of trying to make the grid responsive, which is more important (a call made exclusively for my mental health)
 .gallery-item img { 
     transition: 0.5s ease-in-out;
-}
+    transform: scale(1.2); 
+} */
 
 .gallery-item:hover figure img{
   transform: scale(1.2);
   /* -webkit-filter: blur(.3px);  Do I need this for the blur effect, check caniuse!!! */
-  /* filter: blur(.3px); */
+  filter: blur(.3px);
   
 }
 
 figcaption { 
   font-size: .5rem; 
-  opacity: 2;
   color:black;
   pointer-events: none;
 
 }
 
+footer {
+ /* position: absolute; */
+ /* padding: 0; 
+ margin: 0;  */
+/*  
+ bottom: 0;  */
+ 
+margin-bottom: 0px;
+
+ /* width: 100%;   */
+
+}
+
+
+/* this was all ignored becasue it was a lot I will figure out the span property on the weekend oof */ 
 
   /* padding-bottom: 50px; */ 
 
