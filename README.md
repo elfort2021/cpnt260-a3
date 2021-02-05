@@ -1,5 +1,15 @@
 
 
+
+
+
+
+
+
+Notes: Thursday evening: 
+why is my grid not responsive right now? I'm caught on the column property, if I auto, it's responsive but will fill up alll
+avaliable columns (all 9 images) so I need to set a maximum width they can shrink to before it has to reset. How do I do that? I have no idea. Good good. 
+
 Photo by Laura Skinner on Unsplash
 https://unsplash.com/photos/4RNvfpWOcak
 White brick background
